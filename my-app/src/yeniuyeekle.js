@@ -13,7 +13,7 @@ const addTeamMember = (newMember) => {
 };
     return (
     <div>
-        <h1> Team Members</h1>
+        <h1> Takim Uyeleri</h1>
         <ul>
         {Object.values(teamMembers).map(member => (
           <li key={member.name}>
